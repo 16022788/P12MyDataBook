@@ -28,8 +28,6 @@ public class AnniversaryFragment extends Fragment {
     private ListView drawerList;
 
 
-
-
     public AnniversaryFragment() {
     }
 

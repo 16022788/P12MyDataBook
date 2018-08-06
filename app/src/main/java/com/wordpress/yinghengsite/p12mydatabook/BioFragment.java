@@ -28,7 +28,6 @@ public class BioFragment extends Fragment {
     private ListView drawerList;
 
 
-
     public BioFragment() {
     }
 

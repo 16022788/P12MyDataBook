@@ -44,11 +44,14 @@ public class CustomArrayAdapter extends ArrayAdapter {
         if (currentString.equalsIgnoreCase("Bio")) {
             image.setImageResource(android.R.drawable.ic_dialog_info);
             tv.setText(currentString);
+
         } else if (currentString.equalsIgnoreCase("Vaccination")) {
             image.setImageResource(android.R.drawable.ic_menu_edit);
             tv.setText(currentString);
+
         } else if (currentString.equalsIgnoreCase("Anniversary")) {
             image.setImageResource(android.R.drawable.ic_menu_my_calendar);
+
         } else
             image.setImageResource(android.R.drawable.star_big_on);
         tv.setText(currentString);
